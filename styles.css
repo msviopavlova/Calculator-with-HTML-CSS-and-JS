@@ -1,0 +1,91 @@
+body {
+    background-color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+.heading {
+    background-color: #f0e6ef;
+    font-family: 'Mr Bedfort';
+    color: #9c89b8;
+    font-size: 72px;
+    margin: 0;
+    padding: 7%;
+    
+}
+
+.first_container {
+    margin: 0;
+}
+
+.common_css {
+    color: #f0a6ca;
+    margin-top: 2rem;
+}
+
+.two_subheadings {
+    font-family: 'Mr Bedfort';
+    margin-bottom: 5%;
+}
+
+.first_second_span {
+    color: #b8bedd;
+    font-size: 120%;
+}
+
+.form_margin {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.calculation_result {
+    font-family: 'Mr Bedfort';
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #9c89b8;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.colorful_button {
+    position: relative;
+    background-color: #7d82b8;
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 1% 5% 1%;
+    margin: 5% 3% 5%;
+    border-radius: 16px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.colorful_button:after {
+    position: absolute;
+    content: "";
+    background-color: #5460e2;
+    color: #fff;
+    font-size: 3rem;
+    margin: 5% 3% 5%;
+    border-radius: 16px;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -85px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.colorful_button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.colorful_button:hover {
+    background-color: #9b9fc9;
+}
